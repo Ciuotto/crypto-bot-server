@@ -1,0 +1,30 @@
+{
+  "running": false,
+  "paperMode": true,
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "BNBUSDT",
+    "SOLUSDT",
+    "ADAUSDT",
+    "XRPUSDT",
+    "DOGEUSDT",
+    "AVAXUSDT",
+    "DOTUSDT",
+    "LINKUSDT",
+    "MATICUSDT",
+    "LTCUSDT",
+    "BCHUSDT",
+    "UNIUSDT",
+    "NEARUSDT",
+    "ATOMUSDT"
+  ],
+  "cash": 10000.0,
+  "equity": 10000.0,
+  "positions": {},
+  "lastPrices": {},
+  "lastSignal": {},
+  "loopSeconds": 30,
+  "allocationPct": 0.1,
+  "lastRun": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "crypto-bot-server",
+  "version": "1.0.0",
+  "description": "Render-ready crypto paper trading bot server (starts stopped).",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0"
+  }
+}

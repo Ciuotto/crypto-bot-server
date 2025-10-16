@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: crypto-bot-server
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    envVars:
+      - key: PAPER_MODE
+        value: "true"
+      - key: PORT
+        value: "8080"
+      - key: LOOP_SECONDS
+        value: "30"
+      - key: ALLOCATION_PCT
+        value: "0.10"
+      - key: SYMBOLS
+        value: "BTCUSDT,ETHUSDT,BNBUSDT,SOLUSDT,ADAUSDT,XRPUSDT,DOGEUSDT,AVAXUSDT,DOTUSDT,LINKUSDT,MATICUSDT,LTCUSDT,BCHUSDT,UNIUSDT,NEARUSDT,ATOMUSDT"
